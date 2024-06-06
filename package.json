@@ -14,7 +14,7 @@
     "lint": "gts check"
   },
   "author": "Dave Abouav",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
