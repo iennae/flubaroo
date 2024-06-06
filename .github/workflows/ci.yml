@@ -3,7 +3,7 @@ name: gs CI
 on: [push]
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
 
     steps:
        - name: Check out repository code
@@ -15,5 +15,5 @@ jobs:
        - name: Install JSLint
          run: npm install jslint
        - name: Run JSLint
-         run: node jslint.mjs '*.gs'
+         run: node jslint '*.gs'
          
