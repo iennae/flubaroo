@@ -15,5 +15,5 @@ jobs:
        - name: Install JSLint
          run: npm install jslint
        - name: Run JSLint
-         run: jslint *.gs
+         run: node jslint '*.gs'
          
