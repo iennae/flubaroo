@@ -1,0 +1,15 @@
+{
+  "name": "flubaroo",
+  "version": "77.0.0",
+  "description": "Flubaroo is a free Add-on for Google Spreadsheets that allows teachers to quickly grade assignments, get insights into student performance, and share grades with their students electronically.",
+  "main": "test.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/iennae/flubaroo/"
+  },
+  "author": "Dave Abouav",
+  "license": "Apache-2.0"
+}
