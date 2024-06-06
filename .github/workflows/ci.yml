@@ -14,5 +14,5 @@ jobs:
            node-version: 20
        - run: npm install
        - name: Lint
-         run: npm run lint:js
+         run: npm run lint
          
